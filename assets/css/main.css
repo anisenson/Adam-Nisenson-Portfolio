@@ -9,18 +9,18 @@
     --background-color: #000000; 
     --default-color: #fafafa; 
     --heading-color: #ffffff; 
-    --accent-color: #0183c9; 
+    --accent-color: #00d1da; 
     --surface-color: #1a1a1a; 
     --contrast-color: #000000; 
   }
   
   :root {
     --nav-color: #fafafa;  
-    --nav-hover-color: #0183c9; 
+    --nav-hover-color: #00d1da; 
     --nav-mobile-background-color: #1a1a1a; 
     --nav-dropdown-background-color: #1a1a1a; 
     --nav-dropdown-color: #fafafa; 
-    --nav-dropdown-hover-color: #0183c9; 
+    --nav-dropdown-hover-color: #00d1da; 
   }
     
   .light-background {
