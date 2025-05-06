@@ -73,3 +73,42 @@
       font-size: 20px;
     }
   }
+
+
+
+  /* Hero Section Navigation */
+.hero-nav {
+  margin-bottom: 20px;
+}
+
+.hero-nav ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+}
+
+.hero-nav ul li {
+  display: inline-block;
+}
+
+.hero-nav ul li a {
+  font-family: var(--nav-font);
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--nav-color);
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border: 2px solid transparent;
+  border-radius: 4px;
+  transition: 0.3s ease;
+}
+
+.hero-nav ul li a:hover {
+  color: var(--nav-hover-color);
+  border-color: var(--nav-hover-color);
+  background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+}
