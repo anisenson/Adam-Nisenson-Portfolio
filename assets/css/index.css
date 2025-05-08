@@ -2,25 +2,55 @@
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-    width: 100%;
-    min-height: 100vh;
-    position: relative;
-    padding: 80px 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 80px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bg-img {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+/* Default: show desktop, hide mobile */
+.desktop-bg {
+  display: block;
+}
+
+.mobile-bg {
+  display: none;
+}
+
+/* On small screens: hide desktop, show mobile */
+@media (max-width: 768px) {
+  .desktop-bg {
+    display: none;
   }
-  
-  .hero img {
-    position: absolute;
-    inset: 0;
+
+  .mobile-bg {
     display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    z-index: 1;
   }
-  
+
+  .hero h2 {
+    font-size: 32px;
+  }
+
+  .hero p {
+    font-size: 20px;
+  }
+}
+
+
+
   .hero .container {
     position: relative;
     z-index: 3;
@@ -111,4 +141,26 @@
   color: var(--nav-hover-color);
   border-color: var(--nav-hover-color);
   background-color: color-mix(in srgb, var(--accent-color), transparent 90%);
+}
+
+
+@media (max-width: 768px) {
+  .hero .container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #060407bd; /*Set overlay background for small screen*/
+    opacity: 1;
+    z-index: -1;
+  }
+
+  .hero .container {
+    position: relative;
+    z-index: 3;
+    padding: 20px; 
+    background-color: transparent;
+  }
 }
