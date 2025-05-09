@@ -307,7 +307,6 @@ h6 {
 
   .navmenu {
     padding: 0;
-    z-index: 9997;
   }
 
   .navmenu ul {
@@ -481,29 +480,75 @@ h6 {
   font-size: 13px;
   padding-top: 5px;
 }
-
-
-.footer-nav ul {
+/* Footer Navigation */
+/* Footer Navigation */
+#footerNav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
   justify-content: center;
   flex-wrap: wrap;
-  gap: 16px;
-  padding: 0;
-  margin: 0 0 30px 0;
+  gap: 10px;
 }
 
-.footer-nav ul li a {
-  font-size: 14px;
-  font-weight: 500;
-  padding: 6px 12px;
-  color: var(--default-color);
-  border: 1px solid transparent;
-  border-radius: 4px;
-  transition: 0.3s;
-  text-transform: uppercase;
+#footerNav li {
+  position: relative;
+}
+
+#footerNav a,
+#footerNav a:focus {
+  color: var(--nav-color);
+  font-size: 15px;
+  padding: 5px 8px;
   font-family: var(--nav-font);
-
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  transition: 0.3s;
+  position: relative;
+  text-decoration: none;
 }
 
+#footerNav a i,
+#footerNav a:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+#footerNav > ul > li > a::before {
+  content: "";
+  position: absolute;
+  height: 2px;
+  bottom: -6px;
+  left: 0;
+  background-color: var(--nav-hover-color);
+  width: 0%;
+  transition: width 0.3s ease-in-out;
+}
+
+#footerNav a:hover,
+#footerNav a:focus {
+  color: var(--nav-hover-color);
+}
+
+#footerNav a:hover::before,
+#footerNav a:focus::before {
+  width: 100%;
+}
+
+#footerNav .active {
+  color: var(--nav-hover-color);
+  font-weight: 500;
+}
+
+#footerNav .active::before {
+  width: 0 !important; /* Prevent underline on active link */
+}
 
 
 /*--------------------------------------------------------------
