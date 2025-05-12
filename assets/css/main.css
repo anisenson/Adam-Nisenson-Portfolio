@@ -645,7 +645,6 @@ h6 {
 .page-title {
   color: var(--default-color);
   background-color: var(--background-color);
-  position: relative;
 }
 
 .page-title .heading {
