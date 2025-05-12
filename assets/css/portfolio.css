@@ -1,0 +1,138 @@
+.portfolio-gallery {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.portfolio-item {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: var(--surface-color, #fff);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  height: auto;
+  padding: 1rem;
+}
+
+.portfolio-item-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+.portfolio-item-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.portfolio-item-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: var(--accent-color);
+}
+
+.project-type {
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.5rem;
+}
+
+.project-description {
+  font-size: 0.95rem;
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.project-technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.project-technologies .badge {
+  background-color: var(--accent-color);
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 12px;
+}
+
+.project-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-date {
+  font-size: 0.85rem;
+  color: #777;
+}
+
+.project-links a {
+  text-decoration: none;
+  font-size: 0.85rem;
+  color: var(--accent-color);
+}
+
+.project-links a:hover {
+  text-decoration: underline;
+}
+
+/* Filter Buttons */
+.portfolio-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.portfolio-filter-btn,
+.portfolio-sort-btn {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 25px;
+  background-color: var(--surface-color);
+  color: var(--default-color);
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.portfolio-filter-btn:hover,
+.portfolio-sort-btn:hover {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+.portfolio-filter-btn.active {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 1200px) {
+  .portfolio-item {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .portfolio-item-image-container,
+  .portfolio-item-content {
+    position: static;
+    width: 100%;
+    transform: none !important;
+    right: 0 !important;
+  }
+
+  .portfolio-item-image {
+    height: 300px;
+  }
+}

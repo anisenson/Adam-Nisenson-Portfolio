@@ -1,0 +1,48 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "E-Commerce Platform",
+      "type": "Web Application",
+      "technologies": ["React", "Node.js", "MongoDB", "Express.js", "Redux"],
+      "description": "A comprehensive e-commerce platform featuring user authentication, product browsing, secure checkout, and admin dashboard.",
+      "imageUrl": "https://picsum.photos/id/1/400/300",
+      "dateCreated": "2023-05-15",
+      "githubLink": "#",
+      "liveLink": "#"
+    },
+    {
+      "id": 2,
+      "title": "Personal Blog",
+      "type": "Static Website",
+      "technologies": ["Next.js", "Markdown", "Tailwind CSS", "MDX", "Vercel"],
+      "description": "A modern, responsive personal blog with dynamic content management and SEO optimization.",
+      "imageUrl": "https://picsum.photos/id/2/400/300",
+      "dateCreated": "2022-11-20",
+      "githubLink": "#",
+      "liveLink": "#"
+    },
+    {
+      "id": 3,
+      "title": "Task Management App",
+      "type": "Web Application",
+      "technologies": ["Vue.js", "Firebase", "Vuetify", "Vuex", "Authentication"],
+      "description": "A collaborative task management application with real-time updates and project tracking capabilities.",
+      "imageUrl": "https://picsum.photos/id/3/400/300",
+      "dateCreated": "2024-01-10",
+      "githubLink": "#",
+      "liveLink": "#"
+    },
+    {
+      "id": 4,
+      "title": "Weather Forecast App",
+      "type": "Mobile Responsive",
+      "technologies": ["React", "OpenWeatherAPI", "Styled Components", "Geolocation"],
+      "description": "A detailed weather forecast application with location-based services and interactive visualizations.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2025-08-05",
+      "githubLink": "#",
+      "liveLink": "#"
+    }
+  ]
+}
