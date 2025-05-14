@@ -4,7 +4,7 @@
       "id": 1,
       "title": "E-Commerce Platform",
       "type": "Web Application",
-      "technologies": ["React", "Node.js", "MongoDB", "Express.js", "Redux"],
+      "technologies": ["html", "css", "javascript", "Express.js", "Redux"],
       "description": "A comprehensive e-commerce platform featuring user authentication, product browsing, secure checkout, and admin dashboard.",
       "imageUrl": "https://picsum.photos/id/1/400/300",
       "dateCreated": "2023-05-15",

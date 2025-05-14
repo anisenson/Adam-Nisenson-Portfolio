@@ -112,10 +112,16 @@
   color: var(--contrast-color);
 }
 
+/* Highlight the active filter button */
 .portfolio-filter-btn.active {
-  background-color: var(--accent-color);
-  color: var(--contrast-color);
+  background-color: var(--accent-color); /* Blue or your accent */
+  color: black;
 }
+
+.portfolio-filter-btn.active i {
+  color: black;
+}
+
 
 /* Responsive Adjustments */
 @media (max-width: 1200px) {
@@ -135,4 +141,44 @@
   .portfolio-item-image {
     height: 300px;
   }
+}
+
+
+/* Search Bar */
+.portfolio-search-container {
+  width: 100%;
+}
+
+.portfolio-search-input {
+  width: 50%;
+  max-width: 500px;
+  padding: 0.6rem 1rem;
+  font-size: 1rem;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+.portfolio-search-input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+/* Technology Badge Colors */
+.tech-badge.html { background-color: #f16529; }     /* Orange for HTML */
+.tech-badge.css { background-color: #563d7c; }       /* Purple for CSS */
+.tech-badge.javascript { background-color: #f0db4f; color: #000; } /* Yellow for JS */
+.tech-badge.react { background-color: #61dafb; color: #000; }
+.tech-badge.vue { background-color: #42b883; }
+.tech-badge.bootstrap { background-color: #7952b3; }
+.tech-badge.nodejs { background-color: #3c873a; }
+.tech-badge.python { background-color: #3572A5; }
+.tech-badge.sql { background-color: #f29111; }
+.tech-badge.firebase { background-color: #ffcb2b; color: #000; }
+.tech-badge.typescript { background-color: #3178c6; }
+
+.badge.tech-badge {
+  color: #fff;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
 }
