@@ -2,14 +2,14 @@
   "projects": [
     {
       "id": 1,
-      "title": "E-Commerce Platform",
-      "type": "Web Application",
-      "technologies": ["html", "css", "javascript", "Express.js", "Redux"],
-      "description": "A comprehensive e-commerce platform featuring user authentication, product browsing, secure checkout, and admin dashboard.",
+      "title": "Vacation Desination",
+      "type": "Class Websites",
+      "technologies": ["html", "css", "bootstrap"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "imageUrl": "https://picsum.photos/id/1/400/300",
-      "dateCreated": "2023-05-15",
-      "githubLink": "#",
-      "liveLink": "#"
+      "dateCreated": "2023-4-01",
+      "githubLink": "https://github.com/anisenson/vacation-destination",
+      "liveLink": "https://anisenson.github.io/vacation-destination/"
     },
     {
       "id": 2,
