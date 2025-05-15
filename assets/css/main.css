@@ -413,7 +413,7 @@ h6 {
     top: 15px;
     right: 15px;
     margin-right: 0;
-    z-index: 9999;
+    z-index: 10000;
   }
 
   .mobile-nav-active .navmenu {
@@ -422,6 +422,7 @@ h6 {
     inset: 0;
     background: rgba(33, 37, 41, 0.8);
     transition: 0.3s;
+    z-index: 10000;
   }
 
   .mobile-nav-active .navmenu>ul {
