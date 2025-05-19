@@ -19,13 +19,14 @@ document.addEventListener('DOMContentLoaded', () => {
   // Helper to convert "MM-YYYY" to a readable date (e.g. "Apr 2023")
   function formatMonthYear(dateString) {
     const [month, year] = dateString.split('-');
-    const date = new Date(`${year}-${month}-01`);
+    const date = new Date(Number(year), Number(month) - 1); // subtract 1 from month
     return date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
   }
 
+
   // Render projects to DOM
   function renderProjects(projects) {
-    portfolioGallery.innerHTML = projects.map(project => 
+    portfolioGallery.innerHTML = projects.map(project =>
       `<div class="portfolio-item" data-type="${project.type}">
         <img src="${project.imageUrl}" alt="${project.title}" class="portfolio-item-image">
         <div class="portfolio-item-content">
@@ -33,9 +34,9 @@ document.addEventListener('DOMContentLoaded', () => {
           <p class="project-type">${project.type}</p>
           <p class="project-description">${project.description}</p>
           <div class="project-technologies">
-            ${project.technologies.map(tech => 
-              `<span class="badge tech-badge ${tech.toLowerCase().replace(/\s+/g, '-')}">${tech}</span>`
-            ).join('')}
+            ${project.technologies.map(tech =>
+        `<span class="badge tech-badge ${tech.toLowerCase().replace(/\s+/g, '-')}">${tech}</span>`
+      ).join('')}
           </div>
           <div class="project-meta">
             <div class="project-date">
@@ -86,10 +87,11 @@ document.addEventListener('DOMContentLoaded', () => {
     filteredProjects.sort((a, b) => {
       const [aMonth, aYear] = a.dateCreated.split('-');
       const [bMonth, bYear] = b.dateCreated.split('-');
-      const dateA = new Date(`${aYear}-${aMonth}-01`);
-      const dateB = new Date(`${bYear}-${bMonth}-01`);
+      const dateA = new Date(Number(aYear), Number(aMonth) - 1);
+      const dateB = new Date(Number(bYear), Number(bMonth) - 1);
       return isAscendingSort ? dateA - dateB : dateB - dateA;
     });
+
 
     renderProjects(filteredProjects);
   }
