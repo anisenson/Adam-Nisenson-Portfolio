@@ -4,7 +4,11 @@
       "id": 1,
       "title": "Vacation Desination",
       "type": "Class Websites",
-      "technologies": ["html", "css", "bootstrap"],
+      "technologies": [
+        "html",
+        "css",
+        "bootstrap"
+      ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "imageUrl": "https://picsum.photos/id/1/400/300",
       "dateCreated": "2023-4-01",
@@ -13,36 +17,267 @@
     },
     {
       "id": 2,
-      "title": "Personal Blog",
-      "type": "Static Website",
-      "technologies": ["Next.js", "Markdown", "Tailwind CSS", "MDX", "Vercel"],
-      "description": "A modern, responsive personal blog with dynamic content management and SEO optimization.",
+      "title": "Coffee Shop",
+      "type": "Class Websites",
+      "technologies": [
+        "html",
+        "css",
+        "boostrap "
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
       "imageUrl": "https://picsum.photos/id/2/400/300",
-      "dateCreated": "2022-11-20",
-      "githubLink": "#",
-      "liveLink": "#"
+      "dateCreated": "2023-6-01",
+      "githubLink": "https://github.com/anisenson/Coffee-Shop",
+      "liveLink": "https://anisenson.github.io/Coffee-Shop/"
     },
     {
       "id": 3,
-      "title": "Task Management App",
-      "type": "Web Application",
-      "technologies": ["Vue.js", "Firebase", "Vuetify", "Vuex", "Authentication"],
-      "description": "A collaborative task management application with real-time updates and project tracking capabilities.",
+      "title": "Thomas Edison Biography",
+      "type": "Class Websites",
+      "technologies": [
+        "html",
+        "css",
+        "boostrap "
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "imageUrl": "https://picsum.photos/id/3/400/300",
-      "dateCreated": "2024-01-10",
-      "githubLink": "#",
-      "liveLink": "#"
+      "dateCreated": "2023-11-01",
+      "githubLink": "https://github.com/anisenson/November-Thomas-Edison-Biography",
+      "liveLink": "https://anisenson.github.io/November-Thomas-Edison-Biography/"
     },
     {
       "id": 4,
-      "title": "Weather Forecast App",
-      "type": "Mobile Responsive",
-      "technologies": ["React", "OpenWeatherAPI", "Styled Components", "Geolocation"],
-      "description": "A detailed weather forecast application with location-based services and interactive visualizations.",
+      "title": "On My Birthday",
+      "type": "Class Websites",
+      "technologies": [
+        "html",
+        "css",
+        "bootstrap",
+        "javascript"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "imageUrl": "https://picsum.photos/id/4/400/300",
-      "dateCreated": "2025-08-05",
-      "githubLink": "#",
-      "liveLink": "#"
+      "dateCreated": "2024-01-15",
+      "githubLink": "https://github.com/anisenson/January-OnMyBirthday",
+      "liveLink": "https://anisenson.github.io/January-OnMyBirthday/"
+    },
+    {
+      "id": 5,
+      "title": "Future Me / Career",
+      "type": "Class Websites",
+      "technologies": [
+        "html",
+        "css",
+        "bootstrap"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2024-04-01",
+      "githubLink": "https://github.com/anisenson/April-FutureMe",
+      "liveLink": "https://anisenson.github.io/April-FutureMe/"
+    },
+    {
+      "id": 6,
+      "title": "Little Bird Toy Co.",
+      "type": "Class Websites",
+      "technologies": [
+        "html",
+        "css",
+        "bootstrap",
+        "javascript"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2024-06-01",
+      "githubLink": "https://github.com/anisenson/Final-Little-Bird-Toy-Company",
+      "liveLink": "https://anisenson.github.io/Final-Little-Bird-Toy-Company/"
+    },
+        {
+      "id": 7,
+      "title": "Trunk or Treat",
+      "type": "Class Websites",
+      "technologies": [
+        "html",
+        "css",
+        "bootstrap",
+        "javascript",
+        "JQuery"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2024-10-31",
+      "githubLink": "https://github.com/anisenson/Trunk-or-Treat",
+      "liveLink": "https://anisenson.github.io/Trunk-or-Treat/"
+    },    {
+      "id": 8,
+      "title": "Magic 8 Ball",
+      "type": "Class Projects",
+      "technologies": [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2023-12-01",
+      "githubLink": "https://github.com/anisenson/Magic8Ball",
+      "liveLink": "https://anisenson.github.io/Magic8Ball/"
+    },    {
+      "id": 9,
+      "title": "Mad Libs",
+      "type": "Class Projects",
+      "technologies": [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2023-12-15",
+      "githubLink": "https://github.com/anisenson/December-Mad-Libs",
+      "liveLink": "https://anisenson.github.io/December-Mad-Libs/"
+    },    {
+      "id": 10,
+      "title": "Tip Calculator",
+      "type": "Class Projects",
+      "technologies": [
+        "html",
+        "javascript"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2024-01-31",
+      "githubLink": "https://github.com/anisenson/tip-calculator",
+      "liveLink": "https://anisenson.github.io/tip-calculator/"
+    },    {
+      "id": 11,
+      "title": "Rock Paper Scissors",
+      "type": "Class Projects",
+      "technologies": [
+        "html",
+        "css",
+        "bootstrap",
+        "javascript"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2024-2-15",
+      "githubLink": "https://github.com/anisenson/February-RPS",
+      "liveLink": "https://anisenson.github.io/February-RPS/"
+    },
+    {
+      "id": 12,
+      "title": "Lottery / Random name generator",
+      "type": "Class Projects",
+      "technologies": [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2024-3-15",
+      "githubLink": "https://github.com/anisenson/March-Lottery",
+      "liveLink": "https://anisenson.github.io/March-Lottery/"
+    },
+    {
+      "id": 13,
+      "title": "Class Schedule",
+      "type": "Class Projects",
+      "technologies": [
+        "html",
+        "css",
+        "javascript"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2024-10-15",
+      "githubLink": "https://github.com/anisenson/Class-Schedule",
+      "liveLink": "https://anisenson.github.io/Class-Schedule/"
+    },
+    {
+      "id": 14,
+      "title": "Superior Painting",
+      "type": "Client Work",
+      "technologies": [
+        "html",
+        "css",
+        "bootstrap",
+        "javascript",
+        "SCSS",
+        "PHP"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2024-4-15",
+      "githubLink": "https://github.com/anisenson/Superior-Painting",
+      "liveLink": "https://superiorpaintingnj.com/"
+    },
+    {
+      "id": 15,
+      "title": "Marlboro AP CSA",
+      "type": "Client Work",
+      "technologies": [
+        "html",
+        "css",
+        "bootstrap",
+        "javascript"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2025-2-15",
+      "githubLink": "https://github.com/anisenson/AP-CSA-Marlboro-Tech",
+      "liveLink": "https://www.mrhsteched.com/pages/AP_CSA/index.html"
+    },
+    {
+      "id": 16,
+      "title": "Full On Events",
+      "type": "Client Work",
+      "technologies": [
+        "html",
+        "css",
+        "bootstrap",
+        "javascript"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2025-4-15",
+      "githubLink": "https://github.com/anisenson/Full-On-Events",
+      "liveLink": "https://anisenson.github.io/Full-On-Events/"
+    },
+    {
+      "id": 17,
+      "title": "NJIT Project 1 - Slideshow",
+      "type": "NJIT IS219 Projects",
+      "technologies": [
+        "html",
+        "css",
+        "bootstrap",
+        "javascript",
+        "JSON"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2024-11-15",
+      "githubLink": "https://github.com/anisenson/NJIT-Project-1-Slideshow",
+      "liveLink": "https://anisenson.github.io/NJIT-Project-1-Slideshow/"
+    },
+    {
+      "id": 18,
+      "title": "NJIT Project 2 - Movies",
+      "type": "NJIT IS219 Projects",
+      "technologies": [
+        "html",
+        "css",
+        "bootstrap",
+        "javascript",
+        "JSON"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "dateCreated": "2024-12-15",
+      "githubLink": "https://github.com/anisenson/NJIT-Project-2",
+      "liveLink": "https://anisenson.github.io/NJIT-Project-2/"
     }
   ]
 }
