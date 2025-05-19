@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const sortDateBtn = document.getElementById('sortDateBtn');
   const searchInput = document.getElementById('portfolioSearchInput');
   let projectsData = [];
-  let isAscendingSort = false; // Initially set to false for descending order (latest first)
+  let isAscendingSort = false; // Initially show newest first
   let currentFilter = 'all';
   let currentSearch = '';
 
@@ -16,10 +16,17 @@ document.addEventListener('DOMContentLoaded', () => {
       applyFiltersAndSort();
     });
 
-  // Render projects
+  // Helper to convert "MM-YYYY" to a readable date (e.g. "Apr 2023")
+  function formatMonthYear(dateString) {
+    const [month, year] = dateString.split('-');
+    const date = new Date(`${year}-${month}-01`);
+    return date.toLocaleDateString('en-US', { month: 'short', year: 'numeric' });
+  }
+
+  // Render projects to DOM
   function renderProjects(projects) {
-    portfolioGallery.innerHTML = projects.map(project => `
-      <div class="portfolio-item" data-type="${project.type}">
+    portfolioGallery.innerHTML = projects.map(project => 
+      `<div class="portfolio-item" data-type="${project.type}">
         <img src="${project.imageUrl}" alt="${project.title}" class="portfolio-item-image">
         <div class="portfolio-item-content">
           <h3>${project.title}</h3>
@@ -32,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           <div class="project-meta">
             <div class="project-date">
-              <i class="bi bi-calendar"></i> ${new Date(project.dateCreated).toLocaleDateString()}
+              <i class="bi bi-calendar"></i> ${formatMonthYear(project.dateCreated)}
             </div>
             <div class="project-links">
               <a href="${project.githubLink}" target="_blank" class="mx-2"><i class="bi bi-github"></i> View Code</a>
@@ -40,39 +47,35 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           </div>
         </div>
-      </div>
-    `).join('');
+      </div>`
+    ).join('');
   }
 
-filterButtons.forEach(button => {
-  button.addEventListener('click', () => {
-    filterButtons.forEach(btn => btn.classList.remove('active')); // Remove active from all
-    button.classList.add('active'); // Add active to clicked one
-    currentFilter = button.getAttribute('data-filter');
-    applyFiltersAndSort();
+  // Filter buttons
+  filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      filterButtons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+      currentFilter = button.getAttribute('data-filter');
+      applyFiltersAndSort();
+    });
   });
-});
 
   // Sort by date
   sortDateBtn.addEventListener('click', () => {
     isAscendingSort = !isAscendingSort;
-    // Toggle the icon and highlight the button
-    if (isAscendingSort) {
-      sortDateBtn.innerHTML = 'Date created <i class="bi bi-arrow-up"></i>';
-      sortDateBtn.classList.add('active');
-    } else {
-      sortDateBtn.innerHTML = 'Date created <i class="bi bi-arrow-down"></i>';
-      sortDateBtn.classList.add('active');
-    }
+    sortDateBtn.innerHTML = `Date created <i class="bi bi-arrow-${isAscendingSort ? 'up' : 'down'}"></i>`;
+    sortDateBtn.classList.add('active');
     applyFiltersAndSort();
   });
 
-  // Search input
+  // Search
   searchInput.addEventListener('input', () => {
     currentSearch = searchInput.value.toLowerCase();
     applyFiltersAndSort();
   });
 
+  // Filter, sort, and render
   function applyFiltersAndSort() {
     let filteredProjects = projectsData.filter(project => {
       const matchFilter = currentFilter === 'all' || project.type === currentFilter;
@@ -81,9 +84,11 @@ filterButtons.forEach(button => {
     });
 
     filteredProjects.sort((a, b) => {
-      return isAscendingSort
-        ? new Date(a.dateCreated) - new Date(b.dateCreated)
-        : new Date(b.dateCreated) - new Date(a.dateCreated);
+      const [aMonth, aYear] = a.dateCreated.split('-');
+      const [bMonth, bYear] = b.dateCreated.split('-');
+      const dateA = new Date(`${aYear}-${aMonth}-01`);
+      const dateB = new Date(`${bYear}-${bMonth}-01`);
+      return isAscendingSort ? dateA - dateB : dateB - dateA;
     });
 
     renderProjects(filteredProjects);
