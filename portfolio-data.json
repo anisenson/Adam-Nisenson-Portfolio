@@ -10,7 +10,7 @@
         "bootstrap"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "imageUrl": "https://picsum.photos/id/1/400/300",
+      "imageUrl": "assets/images/gallery/vacation-destination.png",
       "dateCreated": "04-2023",
       "githubLink": "https://github.com/anisenson/vacation-destination",
       "liveLink": "https://anisenson.github.io/vacation-destination/"
@@ -25,7 +25,7 @@
         "boostrap "
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
-      "imageUrl": "https://picsum.photos/id/2/400/300",
+      "imageUrl": "assets/images/gallery/coffee-shop.png",
       "dateCreated": "06-2023",
       "githubLink": "https://github.com/anisenson/Coffee-Shop",
       "liveLink": "https://anisenson.github.io/Coffee-Shop/"
@@ -40,7 +40,7 @@
         "boostrap "
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/3/400/300",
+      "imageUrl": "assets/images/gallery/thomas-edison-bio.jpg",
       "dateCreated": "11-2023",
       "githubLink": "https://github.com/anisenson/November-Thomas-Edison-Biography",
       "liveLink": "https://anisenson.github.io/November-Thomas-Edison-Biography/"
@@ -56,7 +56,7 @@
         "javascript"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/birthday.jpg",
       "dateCreated": "01-2024",
       "githubLink": "https://github.com/anisenson/January-OnMyBirthday",
       "liveLink": "https://anisenson.github.io/January-OnMyBirthday/"
@@ -71,7 +71,7 @@
         "bootstrap"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/future-me.png",
       "dateCreated": "04-2024",
       "githubLink": "https://github.com/anisenson/April-FutureMe",
       "liveLink": "https://anisenson.github.io/April-FutureMe/"
@@ -87,7 +87,7 @@
         "javascript"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/little-bird.jpg",
       "dateCreated": "06-2024",
       "githubLink": "https://github.com/anisenson/Final-Little-Bird-Toy-Company",
       "liveLink": "https://anisenson.github.io/Final-Little-Bird-Toy-Company/"
@@ -104,7 +104,7 @@
         "JQuery"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/trunk-or-treat.jpeg",
       "dateCreated": "10-2024",
       "githubLink": "https://github.com/anisenson/Trunk-or-Treat",
       "liveLink": "https://anisenson.github.io/Trunk-or-Treat/"
@@ -118,7 +118,7 @@
         "javascript"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/8-ball.png",
       "dateCreated": "12-2023",
       "githubLink": "https://github.com/anisenson/Magic8Ball",
       "liveLink": "https://anisenson.github.io/Magic8Ball/"
@@ -132,7 +132,7 @@
         "javascript"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/mad-libs.jpg",
       "dateCreated": "12-2023",
       "githubLink": "https://github.com/anisenson/December-Mad-Libs",
       "liveLink": "https://anisenson.github.io/December-Mad-Libs/"
@@ -145,7 +145,7 @@
         "javascript"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/tip-calculator.jpg",
       "dateCreated": "01-2024",
       "githubLink": "https://github.com/anisenson/tip-calculator",
       "liveLink": "https://anisenson.github.io/tip-calculator/"
@@ -160,7 +160,7 @@
         "javascript"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/rock-paper-scissors.jpg",
       "dateCreated": "02-2024",
       "githubLink": "https://github.com/anisenson/February-RPS",
       "liveLink": "https://anisenson.github.io/February-RPS/"
@@ -175,7 +175,7 @@
         "javascript"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/lottery.jpg",
       "dateCreated": "03-2024",
       "githubLink": "https://github.com/anisenson/March-Lottery",
       "liveLink": "https://anisenson.github.io/March-Lottery/"
@@ -190,7 +190,7 @@
         "javascript"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/class-schedule.jpg",
       "dateCreated": "10-2024",
       "githubLink": "https://github.com/anisenson/Class-Schedule",
       "liveLink": "https://anisenson.github.io/Class-Schedule/"
@@ -208,7 +208,7 @@
         "PHP"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/superior-painting.jpg",
       "dateCreated": "04-2024",
       "githubLink": "https://github.com/anisenson/Superior-Painting",
       "liveLink": "https://superiorpaintingnj.com/"
@@ -224,7 +224,7 @@
         "javascript"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/apcsa.png",
       "dateCreated": "02-2025",
       "githubLink": "https://github.com/anisenson/AP-CSA-Marlboro-Tech",
       "liveLink": "https://www.mrhsteched.com/pages/AP_CSA/index.html"
@@ -240,7 +240,7 @@
         "javascript"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/full-on-events.png",
       "dateCreated": "04-2025",
       "githubLink": "https://github.com/anisenson/Full-On-Events",
       "liveLink": "https://anisenson.github.io/Full-On-Events/"
@@ -257,7 +257,7 @@
         "JSON"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/slideshow.jpg",
       "dateCreated": "11-2024",
       "githubLink": "https://github.com/anisenson/NJIT-Project-1-Slideshow",
       "liveLink": "https://anisenson.github.io/NJIT-Project-1-Slideshow/"
@@ -274,7 +274,7 @@
         "JSON"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-      "imageUrl": "https://picsum.photos/id/4/400/300",
+      "imageUrl": "assets/images/gallery/movies.jpg",
       "dateCreated": "12-2024",
       "githubLink": "https://github.com/anisenson/NJIT-Project-2",
       "liveLink": "https://anisenson.github.io/NJIT-Project-2/"

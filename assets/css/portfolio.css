@@ -17,8 +17,8 @@
 }
 
 .portfolio-item-image {
-  width: 300px;
-  height: 200px;
+  width: 400px;
+  height: auto;
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
