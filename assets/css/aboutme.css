@@ -1,0 +1,69 @@
+
+
+.about .content h2 {
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.about .content h5 {
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.about .content p {
+  font-size: 16px;
+  color: #ffffff;
+  line-height: 1.7;
+}
+
+.about .content strong {
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.about img {
+  max-width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/*--------------------------------------------------------------
+# Interests Section
+--------------------------------------------------------------*/
+.interests .features-item {
+  background-color: var(--surface-color);
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  transition: 0.3s;
+  border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
+  position: relative;
+}
+
+.interests .features-item i {
+  font-size: 32px;
+  padding-right: 10px;
+  line-height: 0;
+}
+
+.interests .features-item h3 {
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.interests .features-item h3 a {
+  color: var(--heading-color);
+  transition: 0.3s;
+}
+
+.interests .features-item:hover {
+  border-color: var(--accent-color);
+}
+
+.interests .features-item:hover h3 a {
+  color: var(--accent-color);
+}
+
