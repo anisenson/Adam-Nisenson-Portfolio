@@ -28,7 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
   function renderProjects(projects) {
     portfolioGallery.innerHTML = projects.map(project =>
       `<div class="portfolio-item" data-type="${project.type}">
-        <img src="${project.imageUrl}" alt="${project.title}" class="portfolio-item-image">
+        <img src="${project.imageUrl}" alt="${project.title}" class="portfolio-item-image img-fluid">
         <div class="portfolio-item-content">
           <h3>${project.title}</h3>
           <p class="project-type">${project.type}</p>

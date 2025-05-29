@@ -164,6 +164,12 @@
   border-color: var(--accent-color);
 }
 
+
+.portfolioborder{
+  border: 7px double var(--accent-color);
+}
+
+
 /* Technology Badge Colors */
 .tech-badge.html { background-color: #f16529; }     /* Orange for HTML */
 .tech-badge.css { background-color: #563d7c; }       /* Purple for CSS */
