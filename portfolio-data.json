@@ -5,11 +5,11 @@
       "title": "Vacation Desination",
       "type": "Class Websites",
       "technologies": [
-        "html",
-        "css",
-        "bootstrap"
+        "HTML",
+        "CSS",
+        "Bootstrap"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "A travel-themed website showcasing various vacation spots, complete with destination highlights, itineraries, and booking information.",
       "imageUrl": "assets/images/gallery/vacation-destination.png",
       "dateCreated": "04-2023",
       "githubLink": "https://github.com/anisenson/vacation-destination",
@@ -20,11 +20,11 @@
       "title": "Coffee Shop",
       "type": "Class Websites",
       "technologies": [
-        "html",
-        "css",
-        "boostrap "
+        "HTML",
+        "CSS",
+        "Bootstrap "
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+      "description": "A cozy, modern coffee shop website featuring an about us, contact page, and a full online menu",
       "imageUrl": "assets/images/gallery/coffee-shop.png",
       "dateCreated": "06-2023",
       "githubLink": "https://github.com/anisenson/Coffee-Shop",
@@ -35,11 +35,11 @@
       "title": "Thomas Edison Biography",
       "type": "Class Websites",
       "technologies": [
-        "html",
-        "css",
-        "boostrap "
+        "HTML",
+        "CSS",
+        "Bootstrap "
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A biography site detailing Thomas Edison's early life, major accomplishments, and contributions to society.",
       "imageUrl": "assets/images/gallery/thomas-edison-bio.jpg",
       "dateCreated": "11-2023",
       "githubLink": "https://github.com/anisenson/November-Thomas-Edison-Biography",
@@ -50,12 +50,12 @@
       "title": "On My Birthday",
       "type": "Class Websites",
       "technologies": [
-        "html",
-        "css",
-        "bootstrap",
-        "javascript"
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "An interactive site highlighting significant historical events that occurred on May 24.",
       "imageUrl": "assets/images/gallery/birthday.jpg",
       "dateCreated": "01-2024",
       "githubLink": "https://github.com/anisenson/January-OnMyBirthday",
@@ -66,11 +66,11 @@
       "title": "Future Me / Career",
       "type": "Class Websites",
       "technologies": [
-        "html",
-        "css",
-        "bootstrap"
+        "HTML",
+        "CSS",
+        "Bootstrap"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A career exploration site focusing on the role of an IT Project Manager, including responsibilities, work environment, and educational requirements.",
       "imageUrl": "assets/images/gallery/future-me.png",
       "dateCreated": "04-2024",
       "githubLink": "https://github.com/anisenson/April-FutureMe",
@@ -81,12 +81,12 @@
       "title": "Little Bird Toy Co.",
       "type": "Class Websites",
       "technologies": [
-        "html",
-        "css",
-        "bootstrap",
-        "javascript"
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A client project for a toy company offering handcrafted wooden toys made from sustainable materials.",
       "imageUrl": "assets/images/gallery/little-bird.jpg",
       "dateCreated": "06-2024",
       "githubLink": "https://github.com/anisenson/Final-Little-Bird-Toy-Company",
@@ -97,13 +97,13 @@
       "title": "Trunk or Treat",
       "type": "Class Websites",
       "technologies": [
-        "html",
-        "css",
-        "bootstrap",
-        "javascript",
-        "JQuery"
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A website for Marlboro High School's Trunk or Treat featuring event details and interactive elements.",
       "imageUrl": "assets/images/gallery/trunk-or-treat.jpeg",
       "dateCreated": "10-2024",
       "githubLink": "https://github.com/anisenson/Trunk-or-Treat",
@@ -113,11 +113,11 @@
       "title": "Magic 8 Ball",
       "type": "Class Projects",
       "technologies": [
-        "html",
-        "css",
-        "javascript"
+        "HTML",
+        "CSS",
+        "JavaScript"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "An interactive web application simulating a magic 8-ball for fortune-telling.",
       "imageUrl": "assets/images/gallery/8-ball.png",
       "dateCreated": "12-2023",
       "githubLink": "https://github.com/anisenson/Magic8Ball",
@@ -127,11 +127,11 @@
       "title": "Mad Libs",
       "type": "Class Projects",
       "technologies": [
-        "html",
-        "css",
-        "javascript"
+        "HTML",
+        "CSS",
+        "JavaScript"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A fun, interactive game where users fill in blanks to create humorous stories.",
       "imageUrl": "assets/images/gallery/mad-libs.jpg",
       "dateCreated": "12-2023",
       "githubLink": "https://github.com/anisenson/December-Mad-Libs",
@@ -141,10 +141,10 @@
       "title": "Tip Calculator",
       "type": "Class Projects",
       "technologies": [
-        "html",
-        "javascript"
+        "HTML",
+        "JavaScript"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A simple tool for calculating tips based on bill amount and desired percentage.",
       "imageUrl": "assets/images/gallery/tip-calculator.jpg",
       "dateCreated": "01-2024",
       "githubLink": "https://github.com/anisenson/tip-calculator",
@@ -154,12 +154,12 @@
       "title": "Rock Paper Scissors",
       "type": "Class Projects",
       "technologies": [
-        "html",
-        "css",
-        "bootstrap",
-        "javascript"
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "An interactive game allowing users to play Rock, Paper, Scissors against the computer.",
       "imageUrl": "assets/images/gallery/rock-paper-scissors.jpg",
       "dateCreated": "02-2024",
       "githubLink": "https://github.com/anisenson/February-RPS",
@@ -170,11 +170,11 @@
       "title": "Lottery / Random name generator",
       "type": "Class Projects",
       "technologies": [
-        "html",
-        "css",
-        "javascript"
+        "HTML",
+        "CSS",
+        "JavaScript"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A tool for selecting random winners from a list of names, useful for raffles or giveaways.",
       "imageUrl": "assets/images/gallery/lottery.jpg",
       "dateCreated": "03-2024",
       "githubLink": "https://github.com/anisenson/March-Lottery",
@@ -185,11 +185,11 @@
       "title": "Class Schedule",
       "type": "Class Projects",
       "technologies": [
-        "html",
-        "css",
-        "javascript"
+        "HTML",
+        "CSS",
+        "JavaScript"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A personal class schedule organizer with interactive features.",
       "imageUrl": "assets/images/gallery/class-schedule.jpg",
       "dateCreated": "10-2024",
       "githubLink": "https://github.com/anisenson/Class-Schedule",
@@ -200,14 +200,14 @@
       "title": "Superior Painting",
       "type": "Client Work",
       "technologies": [
-        "html",
-        "css",
-        "bootstrap",
-        "javascript",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
         "SCSS",
         "PHP"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A client project for a local painting company showcasing their services and projects.",
       "imageUrl": "assets/images/gallery/superior-painting.jpg",
       "dateCreated": "04-2024",
       "githubLink": "https://github.com/anisenson/Superior-Painting",
@@ -218,28 +218,28 @@
       "title": "Marlboro AP CSA",
       "type": "Client Work",
       "technologies": [
-        "html",
-        "css",
-        "bootstrap",
-        "javascript"
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A client project for Marlboro High School's AP Computer Science A course, featuring course materials, study tools and resources.",
       "imageUrl": "assets/images/gallery/apcsa.png",
       "dateCreated": "02-2025",
       "githubLink": "https://github.com/anisenson/AP-CSA-Marlboro-Tech",
-      "liveLink": "https://www.mrhsteched.com/pages/AP_CSA/index.html"
+      "liveLink": "https://www.mrhsteched.com/pages/AP_CSA/index.HTML"
     },
     {
       "id": 16,
       "title": "Full On Events",
       "type": "Client Work",
       "technologies": [
-        "html",
-        "css",
-        "bootstrap",
-        "javascript"
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A client project for an event planning company, showcasing events, services and contact information.",
       "imageUrl": "assets/images/gallery/full-on-events.png",
       "dateCreated": "04-2025",
       "githubLink": "https://github.com/anisenson/Full-On-Events",
@@ -250,13 +250,13 @@
       "title": "NJIT Project 1 - Slideshow",
       "type": "NJIT IS219 Projects",
       "technologies": [
-        "html",
-        "css",
-        "bootstrap",
-        "javascript",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
         "JSON"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A dynamic slideshow app that uses JSON to load and cycle through images.",
       "imageUrl": "assets/images/gallery/slideshow.jpg",
       "dateCreated": "11-2024",
       "githubLink": "https://github.com/anisenson/NJIT-Project-1-Slideshow",
@@ -267,13 +267,13 @@
       "title": "NJIT Project 2 - Movies",
       "type": "NJIT IS219 Projects",
       "technologies": [
-        "html",
-        "css",
-        "bootstrap",
-        "javascript",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "JavaScript",
         "JSON"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "description": "A JavaScript-based web app that loads movie data from a JSON file and displays titles, genres, and descriptions in a user-friendly interface.",
       "imageUrl": "assets/images/gallery/movies.jpg",
       "dateCreated": "12-2024",
       "githubLink": "https://github.com/anisenson/NJIT-Project-2",
