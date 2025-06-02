@@ -181,21 +181,6 @@
       "liveLink": "https://anisenson.github.io/March-Lottery/"
     },
     {
-      "id": 13,
-      "title": "Class Schedule",
-      "type": "Class Projects",
-      "technologies": [
-        "HTML",
-        "CSS",
-        "JavaScript"
-      ],
-      "description": "A personal class schedule organizer with interactive features.",
-      "imageUrl": "assets/images/gallery/class-schedule.jpg",
-      "dateCreated": "10-2024",
-      "githubLink": "https://github.com/anisenson/Class-Schedule",
-      "liveLink": "https://anisenson.github.io/Class-Schedule/"
-    },
-    {
       "id": 14,
       "title": "Superior Painting",
       "type": "Client Work",
