@@ -77,3 +77,25 @@
 .services .service-item:hover p {
   color: var(--contrast-color);
 }
+
+
+.contact-btn {
+  background-color: var(--accent-color);
+  color: var(--contrast-color);
+  font-family: var(--nav-font);
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 12px 24px;
+  border: 2px solid var(--accent-color);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  display: inline-block;
+}
+
+.contact-btn:hover {
+  background-color: transparent;
+  color: var(--accent-color);
+  border-color: var(--accent-color);
+}
