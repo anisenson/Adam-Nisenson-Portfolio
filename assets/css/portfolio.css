@@ -90,7 +90,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 1rem;
+  gap: 0.5rem;
   margin-bottom: 2rem;
 }
 
@@ -138,9 +138,7 @@
     right: 0 !important;
   }
 
-  .portfolio-item-image {
-    height: 300px;
-  }
+
 }
 
 
@@ -151,6 +149,7 @@
 
 .portfolio-search-input {
   width: 50%;
+  min-width: 300px;
   max-width: 500px;
   padding: 0.6rem 1rem;
   font-size: 1rem;
