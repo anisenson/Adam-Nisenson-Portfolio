@@ -1,30 +1,24 @@
-
-
 .about .content h2 {
   font-size: 32px;
   font-weight: 700;
-}
-
-.about .content h5 {
-  font-weight: 400;
-  color: #ffffff;
+  color: #fff;
 }
 
 .about .content p {
   font-size: 16px;
-  color: #ffffff;
-  line-height: 1.7;
-}
-
-.about .content strong {
-  font-weight: 600;
-  color: #ffffff;
+  line-height: 1.8;
+  color: #ddd;
 }
 
 .about img {
   max-width: 100%;
   border-radius: 16px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.about img:hover {
+  transform: scale(1.03);
 }
 
 /*--------------------------------------------------------------
